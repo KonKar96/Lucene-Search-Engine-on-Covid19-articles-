@@ -15,4 +15,5 @@ https://www.the-scientist.com/tag/covid-19
 Χρησιμοποιεί τον chromedriver που θα πρεπει να ειναι αντιστοιχη εκδοση με τον chrome του συστηματος που θα τρεξει το προγραμμα
 Ετρεξε σε Windows 10
 Εγκατάσταση του Selenium κανουμε με την εντολη
+
 pip install selenium
