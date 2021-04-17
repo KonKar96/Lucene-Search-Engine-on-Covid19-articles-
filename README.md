@@ -17,9 +17,7 @@ https://www.the-scientist.com/tag/covid-19
 
 Έτρεξε σε Windows 10.
 
-Εγκατάσταση του Selenium κάνουμε με την εντολή.
-
-pip install selenium
+Εγκατάσταση του Selenium κάνουμε με την εντολή: pip install selenium
 
 
 Σε επόμενο στάδιο θα φορτώσουμε στο Java πρόγραμμα το csv αρχείο που δημιουργήσαμε και θα σχεδιάσουμε το ευρετήριο μας
