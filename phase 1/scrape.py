@@ -30,7 +30,6 @@ d = {}
 
 
 driver.get('https://www.thelancet.com/coronavirus/collection?pageSize=100&startPage=&ContentItemCategory=Editorial')
-
 hrefs = []
 
 for q in range(0,2):
@@ -39,14 +38,13 @@ for q in range(0,2):
         i.location_once_scrolled_into_view
         hrefs.append(i.get_attribute('href'))
     driver.get('https://www.thelancet.com/coronavirus/collection?startPage=1&ContentItemCategory=Editorial&pageSize=100')
-    print(len(hrefs))
-texts = []
+
 for i in hrefs:
     driver.get(i)
     text = ''
     try:
         title = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH,"//h1[@class='article-header__title']"))).text
-        elements = driver.find_elements_by_xpath("//div[@class='section-paragraph']")
+        elements = driver.find_elements_by_xpath("//div[@class='section-paragraph' and not(descendant::div) and not(parent::section)]")
         for j in range(0, len(elements)-1):
             text+=elements[j].text
         d[title] = text
@@ -57,6 +55,7 @@ for i in hrefs:
 
 driver.get('https://www.the-scientist.com/tag/covid-19')
 hrefs = []
+
 while(True):
     articles = driver.find_elements_by_xpath("//a[@target='_self']")
     if articles[0].get_attribute('href') in hrefs:
@@ -71,7 +70,9 @@ for i in hrefs:
     driver.get(i)
     try:
         title = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH,"//header/h1"))).text
-        text = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH,"//div[@class='non-paywall']"))).text
+        elements = driver.find_elements_by_xpath("//div[@class='non-paywall']/p[not(@class='fr-hero-header-caption fr-caption fr-right fr-quarter')]")
+        for j in range(0, len(elements)-1):
+            text+=elements[j].text
         d[title] = text
         print(title)
         print(text)
