@@ -23,6 +23,7 @@ Phase 1 :
 
 Τα άρθρα χωρίζονται σε τίτλους και το περιεχόμενο τους και αποτελούν ξεχωριστά αρχεία csv.
 Για τη δημιουργία της συλλογής χρησιμοποιήσαμε ένα script σε python (scrape.py). Το script χρησιμοποιεί την βιβλιοθήκη selenium η οποία χρησιμοποιώντας τον κατάλληλο driver (στην περίπτωση μας τον chromedriver) μπορεί να κάνει scrape από σελίδες. Αντλούμε τα άρθρα μας από 2 ξεχωριστές σελίδες ώστε να έχουμε τον επαρκή αριθμό (500+), οι οποίες είναι οι εξής.
+
 https://www.thelancet.com/coronavirus/collection?pageSize=100&startPage=&ContentItemCategory=Editorial
 
 https://www.the-scientist.com/tag/covid-19
