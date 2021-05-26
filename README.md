@@ -9,7 +9,7 @@
 Ακολουθεί video demo της εργασίας σε πραγματικό χρόνο (phase1 και phase2)
 Το βίντεο έχει μικρό voice over σχολιασμό
 
-![demo](https://github.com/KonKar96/Lucene-Search-Engine-on-Covid19-articles-/blob/main/Demo.mkv)
+![demo](https://github.com/KonKar96/Lucene-Search-Engine-on-Covid19-articles-/blob/main/Demo.mp4)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
