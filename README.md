@@ -6,11 +6,10 @@
 
 Παπαδόπουλος Γιώργος Α.Μ. : 2904
 
-Ακολουθεί link με demo της εργασίας σε πραγματικό χρόνο (phase1 και phase2)
+Ακολουθεί video demo της εργασίας σε πραγματικό χρόνο (phase1 και phase2)
 Το βίντεο έχει μικρό voice over σχολιασμό
 
-https://drive.google.com/file/d/1rWXZmnXh2ZnSDRFVdqbiMV0V6189PsyX/view?usp=sharing
-
+![demo](https://github.com/KonKar96/Lucene-Search-Engine-on-Covid19-articles-/blob/main/Demo.mkv)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
