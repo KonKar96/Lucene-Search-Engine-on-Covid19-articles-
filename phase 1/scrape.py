@@ -33,7 +33,7 @@ driver.get('https://www.thelancet.com/coronavirus/collection?pageSize=100&startP
 hrefs = []
 
 for q in range(0,2):
-    articles = driver.find_elements_by_xpath("//h2/a")
+    articles = driver.find_elements_by_xpath("//h4/a")
     for i in articles:
         i.location_once_scrolled_into_view
         hrefs.append(i.get_attribute('href'))
