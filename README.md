@@ -7,9 +7,12 @@
 Παπαδόπουλος Γιώργος Α.Μ. : 2904
 
 Ακολουθεί GoogleDrive link για video demo της εργασίας σε πραγματικό χρόνο (phase1 και phase2)
+
 https://drive.google.com/file/d/12DRFQWH2LFW_el981Zto9bmjnvoyxux4/view?usp=sharing
+
 Το βίντεο έχει μικρό voice over σχολιασμό
 
+Επίσης υπάρχει και εδώ στο GitHub
 ![demo](https://github.com/KonKar96/Lucene-Search-Engine-on-Covid19-articles-/blob/main/Demo.mp4)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
