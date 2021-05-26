@@ -65,9 +65,9 @@ while(True):
         hrefs.append(i.get_attribute('href'))
     driver.find_element_by_xpath("//button[@title='Next']").click()
 
-texts = []
 for i in hrefs:
     driver.get(i)
+    text = ''
     try:
         title = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH,"//header/h1"))).text
         elements = driver.find_elements_by_xpath("//div[@class='non-paywall']/p[not(@class='fr-hero-header-caption fr-caption fr-right fr-quarter')]")
